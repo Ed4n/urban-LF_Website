@@ -1,0 +1,78 @@
+@import './vars';
+
+.goals {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar {
+    height: 100%;
+    width: 1%;
+    background: $red;
+}
+
+.goals-content {
+    height: 100%;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $font-blue;
+
+    .goals__content-container {
+        width: 90%;
+        height: 90%;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .goals__cont-tittle {
+            
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .golas__three-points-container {
+            width: 1000px;
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+          
+            .goals__point-container{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                transition: all ease-in 0.3s;
+
+                &:hover {
+                    transform: scale(1.05);
+                }
+                img {
+                    width: 50px;
+                    height: 50px;
+                    align-self: center;
+                }
+
+                p {
+                    width: 90%;
+                    color: white;
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+    
+
+   
+}

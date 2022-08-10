@@ -1,0 +1,14 @@
+@import './mixins';
+
+footer {
+    width: 100%;
+    height: 800px;
+    background: grey;
+    @include cont-img(100%, 800px);
+
+    .footer-bg {
+        @include img(100%, 100%);
+    }
+
+
+}

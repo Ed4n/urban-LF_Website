@@ -1,0 +1,33 @@
+@import "./vars";
+.about {
+  width: 100%;
+  height: 600px;
+
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about__cont-txt {
+  font-family: $font-family-1;
+
+  width: 500px;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  
+
+  p {
+    font-size: 20px;
+  }
+}
+
+.about-img {
+  background: grey;
+  margin-right: 30px;
+}
+
