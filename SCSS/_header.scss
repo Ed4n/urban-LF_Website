@@ -37,3 +37,20 @@ header {
 }
 
 
+
+@media screen and (max-width: 1285px) {
+   
+    header {
+        .header-txt {
+            justify-self: flex-start;
+            margin-left: 30px;
+            width: 80%;
+           
+            h1 {
+                font-size: 30px;
+            }
+        }
+    }
+  }
+
+
