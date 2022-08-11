@@ -165,7 +165,8 @@
         background: white;
         width: 100%;
         height: 100vh;
-  
+        visibility: hidden;
+        z-index: 5;
         flex-direction: column;
         justify-content: flex-end;
         clip-path: circle(100px at 90% -10%);
@@ -222,7 +223,7 @@
       right: 5%;
       top: 50%;
       transform: translate(-5%, -50%);
-      z-index: 2;
+      z-index: 10;
     }
   
     .nav-links.open {
@@ -230,6 +231,7 @@
       -webkit-clip-path: circle(1500px at 90% -10%);
       pointer-events: all;
       width: 100%;
+      visibility: visible;
     }
   }
   
