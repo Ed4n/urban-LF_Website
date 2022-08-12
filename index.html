@@ -8,6 +8,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="CSS/normalize.css" />
   <link rel="stylesheet" href="CSS/style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   
 </head>
 
@@ -46,24 +47,24 @@
       <img src="./img/2Recourses-1.png" alt="" />
     </div>
 
-    <div class="header-txt">
+    <div data-aos="fade-right"  data-aos-duration="1300" class="header-txt">
       <h1>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis,
         ratione.
       </h1>
     </div>
 
-    <img class="header-img" src="./img/recourses-3.png" alt="" />
+    <img  data-aos="fade-left"  data-aos-duration="2000" class="header-img" src="./img/lisseth.png" alt="" />
   </header>
 
   <!-- //ABOUT// ================================================= -->
   <section class="about" id="about">
-    <div class="about__cont-txt">
+    <div class="about__cont-txt" >
       <div class="tittle tittle--blue">
         ABOUT ME
         <div class="tittle-line line--moved"></div>
       </div>
-      <p>
+      <p data-aos="fade-down-right"  data-aos-duration="1300">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit.
         Exercitationem necessitatibus reprehenderit provident ab voluptatum
         minima, fugit libero, eaque inventore ipsa quasi deleniti nesciunt
@@ -71,7 +72,7 @@
       </p>
     </div>
 
-    <img class="about-img" src="./img//recourses-5.png" alt="" />
+    <img class="about-img" src="./img//recourses-5.png" alt="" data-aos="fade-left"  data-aos-duration="2000" />
   </section>
 
   <!-- //GOALS// ================================================== -->
@@ -87,7 +88,7 @@
         </div>
 
         <div class="golas__three-points-container">
-          <div class="goals__point-container">
+          <div class="goals__point-container" data-aos="fade-right" data-aos-duration="1500">
             <img src="./img/Recurso 5.png" alt="" />
 
             <p class="goals__point-container-txt">
@@ -99,7 +100,7 @@
             </p>
           </div>
           
-          <div class="goals__point-container">
+          <div class="goals__point-container" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
             <img src="./img/Recurso 5.png" alt="" />
 
             <p class="goals__point-container-txt">
@@ -111,7 +112,7 @@
             </p>
           </div>
 
-          <div class="goals__point-container">
+          <div class="goals__point-container" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300">
             <img src="./img/Recurso 5.png" alt="" />
 
             <p class="goals__point-container-txt">
@@ -139,8 +140,9 @@
           <div class="tittle-line line--expanded"></div>
         </div>
       </div>
+
       <div class="news__content">
-        <div class="news__content-new-container">
+        <div class="news__content-new-container" data-aos="flip-left" data-aos-duration="1500" >
           <div class="new__container-img">
             <img src="./img/Icon .png" alt="">
           </div>
@@ -152,7 +154,7 @@
           </div>
         </div>
 
-        <div class="news__content-new-container">
+        <div class="news__content-new-container" data-aos="flip-left" data-aos-duration="1500"  data-aos-delay="200">
           <div class="new__container-img">
             <img src="./img/Icon .png" alt="">
           </div>
@@ -164,13 +166,13 @@
           </div>
         </div>
 
-        <div class="news__content-new-container">
+        <div  class="news__content-new-container" data-aos="flip-left" data-aos-duration="1500"  data-aos-delay="300">
           <div class="new__container-img">
             <img src="./img/Icon .png" alt="">
           </div>
 
-          <div class="news__container-txt">
-            <h3>Tittle</h3>
+          <div  class="news__container-txt">
+            <h3  >Tittle</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa magni officia, consequatur, eveniet beatae
               nesciunt voluptate praesentium exercitationem dolor fuga itaque veniam omnis, dignissimos quis.</p>
           </div>
@@ -183,9 +185,16 @@
   <!-- //FOOTER// ================================================= -->
   <footer>
     <img class="footer-bg" src="./img/recourses-7.png" alt="">
-    <img class="footer-img" src="./img/recourses-4---logo.png" alt="">
+
+    <div class="donate__container" data-aos="fade-left"  data-aos-duration="2000">
+      <img class="footer-img" src="./img/logo_footer.png" alt="">
+      <button class="donate-button">DONATE</button>
+    </div> 
   </footer>
   <script src="./main.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+      AOS.init();
+  </script>
 </body>
-
 </html>
