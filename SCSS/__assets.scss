@@ -9,7 +9,13 @@
   .tittle-line {
     height: 3px;
     width: 100%;
-    background: red;
+    background: $red;
+  }
+
+  .line--blue {
+    height: 3px;
+    width: 100%;
+    background: $font-blue;
   }
 
   .line--expanded {
@@ -28,4 +34,8 @@
 
 .tittle--blue {
   color: $font-blue;
+}
+
+.line--blue {
+  background: $blue;
 }

@@ -10,7 +10,7 @@
 .bar {
   height: 100%;
   width: 1%;
-  background: $red;
+  background: $font-blue;
   display: flex;
 }
 
@@ -20,7 +20,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: $font-blue;
+  background: $red;
 
   .goals__content-container {
     width: 90%;
@@ -79,7 +79,7 @@
       border-radius: 100%;
       width: 100px;
       height: 100px;
-      background: $font-blue;
+      background: $red;
       position: absolute;
       transform: translateY(290px);
       display: flex;
