@@ -1,206 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home</title>
-  <link rel="stylesheet" href="CSS/normalize.css" />
-  <link rel="stylesheet" href="CSS/style.css" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  
-</head>
+  <body>
+    <!-- //NAV// ================================================== -->
+    <nav>
+      <img class="nav-logo" src="./img/recourses-4---logo.png" alt="" />
 
-<body>
-  <!-- //NAV// ================================================== -->
-  <nav>
-    <img class="nav-logo" src="./img/recourses-4---logo.png" alt="" />
-
-    <div class="hamburger">
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
-    </div>
-
-    <div class="nav-links">
-      <div class="nav-links__container">
-        <div class="nav-links__container-ancles">
-          <a class="nav-links__container-a" href="#">HOME</a>
-          <a class="nav-links__container-a" href="#about">ABOUT</a>
-          <a class="nav-links__container-a" href="#goals">GOALS</a>
-          <a class="nav-links__container-a" href="#news">NEWS</a>
-        </div>
-
-        <div class="nav-links__container-buttons">
-          <button class="nav-links__container-button">CONTACT US</button>
-
-          <button class="nav-links__container-button">DONATE</button>
-        </div>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
       </div>
-    </div>
-  </nav>
 
-  <!-- //HEADER// ================================================ -->
-  <header id="#header">
-    <div class="header-bg">
-      <img src="./img/2Recourses-1.png" alt="" />
-    </div>
-
-    <div data-aos="fade-right"  data-aos-duration="1300" class="header-txt">
-      <h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis,
-        ratione.
-      </h1>
-    </div>
-
-    <img class="header-img"  data-aos="fade-left"  data-aos-duration="2000"  src="./img/lisseth.png" alt="" />
-  </header>
-
-  <!-- //ABOUT// ================================================= -->
-  <section class="about" id="about">
-    <div class="about__cont-txt" >
-      <div class="tittle tittle--blue">
-        ABOUT ME
-        <div class="tittle-line line--moved"></div>
-      </div>
-      <p data-aos="zoom-in-right"  data-aos-duration="1300">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-        Exercitationem necessitatibus reprehenderit provident ab voluptatum
-        minima, fugit libero, eaque inventore ipsa quasi deleniti nesciunt
-        cupiditate aspernatur.
-      </p>
-    </div>
-
-    <img class="about-img" src="./img//recourses-5.png" alt="" data-aos="fade-left"  data-aos-duration="2000" />
-  </section>
-
-  <!-- //GOALS// ================================================== -->
-  <section class="goals" id="goals">
-    <div class="bar"></div>
-    <div class="goals-content">
-      <div class="goals__content-container">
-        <div class="goals__cont-tittle">
-          <div class="tittle tittle--white">
-            GOALS
-            <div class="tittle-line line--moved"></div>
-          </div>
-        </div>
-
-        <div class="golas__three-points-container">
-          <div class="goals__point-container" data-aos="fade-right" data-aos-duration="1500">
-            <img src="./img/Recurso 5.png" alt="" />
-
-            <p class="goals__point-container-txt">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Architecto sapiente ut hic possimus iusto adipisci ad. Ratione,
-              reprehenderit? Quisquam voluptatibus magnam, perferendis
-              repellat voluptates reiciendis architecto consequatur tenetur
-              maiores ullam.
-            </p>
-          </div>
-          
-          <div class="goals__point-container" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
-            <img src="./img/Recurso 5.png" alt="" />
-
-            <p class="goals__point-container-txt">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Architecto sapiente ut hic possimus iusto adipisci ad. Ratione,
-              reprehenderit? Quisquam voluptatibus magnam, perferendis
-              repellat voluptates reiciendis architecto consequatur tenetur
-              maiores ullam.
-            </p>
+      <div class="nav-links">
+        <div class="nav-links__container">
+          <div class="nav-links__container-ancles">
+            <a class="nav-links__container-a" href="#">HOME</a>
+            <a class="nav-links__container-a" href="#about">ABOUT</a>
+            <a class="nav-links__container-a" href="#goals">GOALS</a>
+            <a class="nav-links__container-a" href="#news">NEWS</a>
           </div>
 
-          <div class="goals__point-container" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300">
-            <img src="./img/Recurso 5.png" alt="" />
+          <div class="nav-links__container-buttons">
+            <button class="nav-links__container-button">CONTACT US</button>
 
-            <p class="goals__point-container-txt">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Architecto sapiente ut hic possimus iusto adipisci ad. Ratione,
-              reprehenderit? Quisquam voluptatibus magnam, perferendis
-              repellat voluptates reiciendis architecto consequatur tenetur
-              maiores ullam.
-            </p>
-          </div>
-
-          <div class="goals-ball">
-            <svg xmlns="http://www.w3.org/2000/svg"  fill = "white"  viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
+            <button class="nav-links__container-button">DONATE</button>
           </div>
         </div>
       </div>
-    </div>
-    <div class="bar"></div>
-  </section>
+    </nav>
 
-  <!-- //NEWS// ==================================================== -->
-  <section class="news" id="news">
-    <div class="news__container">
-      <div class="news__tittle-container">
+    <!-- //HEADER// ================================================ -->
+    <header id="#header">
+      <div class="header-bg">
+        <img src="./img/2Recourses-1.png" alt="" />
+      </div>
+
+      <div data-aos="fade-right" data-aos-duration="1300" class="header-txt">
+        <h1>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis,
+          ratione.
+        </h1>
+      </div>
+
+      <img
+        class="header-img"
+        data-aos="fade-left"
+        data-aos-duration="2000"
+        src="./img/lisseth.png"
+        alt=""
+      />
+    </header>
+
+    <!-- //ABOUT// ================================================= -->
+    <section class="about" id="about">
+      <div class="about__cont-txt">
         <div class="tittle tittle--blue">
-          NEWS
-          <div class="tittle-line line--expanded"></div>
+          ABOUT ME
+          <div class="tittle-line line--moved"></div>
         </div>
+        <p data-aos="zoom-in-right" data-aos-duration="1300">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Exercitationem necessitatibus reprehenderit provident ab voluptatum
+          minima, fugit libero, eaque inventore ipsa quasi deleniti nesciunt
+          cupiditate aspernatur.
+        </p>
       </div>
 
-      <div class="news__content">
-        <div class="news__content-new-container" data-aos="flip-left" data-aos-duration="1500" >
-          <div class="new__container-img">
-            <img src="./img/Icon .png" alt="">
+      <img
+        class="about-img"
+        src="./img//recourses-5.png"
+        alt=""
+        data-aos="fade-left"
+        data-aos-duration="2000"
+      />
+    </section>
+
+    <!-- //GOALS// ================================================== -->
+    <section class="goals" id="goals">
+      <div class="bar"></div>
+      <div class="goals-content">
+        <div class="goals__content-container">
+          <div class="goals__cont-tittle">
+            <div class="tittle tittle--white">
+              GOALS
+              <div class="tittle-line line--moved"></div>
+            </div>
           </div>
 
-          <div class="news__container-txt">
-            <h3>Tittle</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa magni officia, consequatur, eveniet beatae
-              nesciunt voluptate praesentium exercitationem dolor fuga itaque veniam omnis, dignissimos quis.</p>
+          <div class="golas__three-points-container">
+            <div
+              class="goals__point-container"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+            >
+              <img src="./img/Recurso 5.png" alt="" />
+
+              <p class="goals__point-container-txt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Architecto sapiente ut hic possimus iusto adipisci ad. Ratione,
+                reprehenderit? Quisquam voluptatibus magnam, perferendis
+                repellat voluptates reiciendis architecto consequatur tenetur
+                maiores ullam.
+              </p>
+            </div>
+
+            <div
+              class="goals__point-container"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+              data-aos-delay="200"
+            >
+              <img src="./img/Recurso 5.png" alt="" />
+
+              <p class="goals__point-container-txt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Architecto sapiente ut hic possimus iusto adipisci ad. Ratione,
+                reprehenderit? Quisquam voluptatibus magnam, perferendis
+                repellat voluptates reiciendis architecto consequatur tenetur
+                maiores ullam.
+              </p>
+            </div>
+
+            <div
+              class="goals__point-container"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+              data-aos-delay="300"
+            >
+              <img src="./img/Recurso 5.png" alt="" />
+
+              <p class="goals__point-container-txt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Architecto sapiente ut hic possimus iusto adipisci ad. Ratione,
+                reprehenderit? Quisquam voluptatibus magnam, perferendis
+                repellat voluptates reiciendis architecto consequatur tenetur
+                maiores ullam.
+              </p>
+            </div>
+
+            <div class="goals-ball">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="white"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"
+                />
+              </svg>
+            </div>
           </div>
         </div>
-
-        <div class="news__content-new-container" data-aos="flip-left" data-aos-duration="1500"  data-aos-delay="200">
-          <div class="new__container-img">
-            <img src="./img/Icon .png" alt="">
-          </div>
-
-          <div class="news__container-txt">
-            <h3>Tittle</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa magni officia, consequatur, eveniet beatae
-              nesciunt voluptate praesentium exercitationem dolor fuga itaque veniam omnis, dignissimos quis.</p>
-          </div>
-        </div>
-
-        <div  class="news__content-new-container" data-aos="flip-left" data-aos-duration="1500"  data-aos-delay="300">
-          <div class="new__container-img">
-            <img src="./img/Icon .png" alt="">
-          </div>
-
-          <div  class="news__container-txt">
-            <h3  >Tittle</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa magni officia, consequatur, eveniet beatae
-              nesciunt voluptate praesentium exercitationem dolor fuga itaque veniam omnis, dignissimos quis.</p>
-          </div>
-        </div>
-      
       </div>
-    </div>
-  </section>
+      <div class="bar"></div>
+    </section>
 
-  <!-- //FOOTER// ================================================= -->
-  <footer>
-    <img class="footer-bg" src="./img/recourses-7.png" alt="">
+    <!-- //NEWS// ==================================================== -->
+    <section class="news" id="news">
+      <div class="news__container">
+        <div class="news__tittle-container">
+          <div class="tittle tittle--blue">
+            NEWS
+            <div class="tittle-line line--expanded"></div>
+          </div>
+        </div>
 
-    <div class="donate__container" data-aos="fade-left"  data-aos-duration="2000">
-      <img class="footer-img" src="./img/logo_footer.png" alt="">
-      <button class="donate-button">DONATE</button>
-    </div> 
-  </footer>
+        <div class="news__content">
+          <div
+            class="news__content-new-container"
+            data-aos="flip-left"
+            data-aos-duration="1500"
+          >
+            <div class="new__container-img">
+              <img src="./img/Icon .png" alt="" />
+            </div>
 
-  <!-- //Contact Form // ========================================================= -->
-  
+            <div class="news__container-txt">
+              <h3>Title</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
+                magni officia, consequatur, eveniet beatae nesciunt voluptate
+                praesentium exercitationem dolor fuga itaque veniam omnis,
+                dignissimos quis.
+              </p>
+            </div>
+          </div>
 
-  <script src="./main.js"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
+          <div
+            class="news__content-new-container"
+            data-aos="flip-left"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
+            <div class="new__container-img">
+              <img src="./img/Icon .png" alt="" />
+            </div>
+
+            <div class="news__container-txt">
+              <h3>Title</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
+                magni officia, consequatur, eveniet beatae nesciunt voluptate
+                praesentium exercitationem dolor fuga itaque veniam omnis,
+                dignissimos quis.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="news__content-new-container"
+            data-aos="flip-left"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+          >
+            <div class="new__container-img">
+              <img src="./img/Icon .png" alt="" />
+            </div>
+
+            <div class="news__container-txt">
+              <h3>Title</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
+                magni officia, consequatur, eveniet beatae nesciunt voluptate
+                praesentium exercitationem dolor fuga itaque veniam omnis,
+                dignissimos quis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- //DONATE// ================================================= -->
+    <section class="donate">
+      <img class="donate-bg" src="./img/recourses-7.png" alt="" />
+
+      <div
+        class="donate__container"
+        data-aos="fade-left"
+        data-aos-duration="2000"
+      >
+        <img class="footer-img" src="./img/logo_footer.png" alt="" />
+        <button class="donate-button">DONATE</button>
+      </div>
+    </section>
+
+    <!-- //Contact Form // ========================================================= -->
+    <section class="contact-us">
+      <div class="contact-us__cont-tittle">
+        <h1 class="contact-us__tittle">Lorem, ipsum dolor.</h1>
+      </div>
+
+      <div class="contact-us__bottom">
+        <!-- Bottom Left // -->
+        <div class="contact-us__bottom-left">
+          <div class="contact-us__cont-email">
+            <h1>Contact</h1>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M11.99 0l-11.99 8.723v15.277h24v-15.277l-12.01-8.723zm.001 2.472l9.793 7.113-6.735 4.588-3.049-2.47-3.049 2.471-6.737-4.589 9.777-7.113zm-9.991 9.386l5.329 3.63-5.329 4.318v-7.948zm.474 10.142l9.526-7.723 9.526 7.723h-19.052zm19.526-2.194l-5.329-4.317 5.329-3.631v7.948z"
+              />
+            </svg>
+
+            <div class="contact-us__email">name@example.com</div>
+          </div>
+        </div>
+
+        <!-- Bottom Right // -->
+        <div class="contact-us__bottom-right">
+          <!-- Form -->
+          <form class="contact-us__form" action="">
+            <div class="cont-input">
+              <label for="fname">Name</label><br />
+              <input
+                class="form-input"
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Your name.."
+              />
+            </div>
+
+            <div class="cont-input">
+              <label for="fname">Email</label><br />
+              <input
+                class="form-input"
+                type="email"
+                name=" "
+                id=""
+                placeholder="name@example.com..."
+              />
+            </div>
+
+            <div class="cont-input">
+              <label for="subject">Message</label><br />
+              <textarea
+                class="form-textarea"
+                id="subject"
+                name="subject"
+                placeholder="Enter your message..."
+              ></textarea>
+            </div>
+
+            <input type="submit" value="submit" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="./main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
       AOS.init();
-  </script>
-</body>
+    </script>
+  </body>
 </html>
