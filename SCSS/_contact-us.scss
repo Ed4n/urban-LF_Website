@@ -14,6 +14,10 @@
     justify-content: center;
     align-items: center;
     color: $red;
+
+    .contact-us__tittle {
+      font-size: $font-XL;
+    }
   }
 
   .contact-us__bottom {
@@ -143,7 +147,9 @@
       
       
         .contact-us__cont-tittle {
-         
+          .contact-us__tittle {
+            font-size: $font-L;
+          }
         }
       
         .contact-us__bottom {
